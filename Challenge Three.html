@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYE Calculator</title>
+</head>
+
+<body>
+    <h1>Payee Tax, NHIF, NSSF Deductions and Net salary Calculations</h1>
+    <label for="basic-salary">Enter Basic Salary(Kshs):</label>
+    <input type="text" id="basic-salary" value="0">
+
+    <label for="benefits">Enter Benefits(Kshs):</label>
+    <input type="text" id="benefits" value="0">
+
+    <button type="button" id="calculate-tax">Calculate Tax</button>
+    <div>
+        <p id="gross-salary">
+            Gross Salary: <span>----</span>
+        </p>
+        <p id="nhif-deductions">
+            NHIF Deductions: <span>----</span>
+        </p>
+        <p id="nssf-deductions">
+            NSSF Deductions: <span>----</span>
+        </p>
+        <p id="net-salary">
+            Net Salary: <span>----</span>
+        </p>
+        <p id="paye-amount">
+            PAYE amount: <span>----</span>
+        </p>
+    </div>
+    <li><a href="https://www.aren.co.ke/payroll/taxrates.htm">Visit Aren official website for Tax Rates</a></li>
+    <li><a href="https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye">Visit Kenya Revenue Authority(KRA)
+        official website></a></li>
+
+        <script src="./Challenge Three.js"></script>
+
+</body>
+
+</html>
